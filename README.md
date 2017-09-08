@@ -43,7 +43,7 @@ The Threads tab in DDMS shows you the currently running threads for a selected p
 
 ## Starting method profiling
 
-Method profiling is a means to track certain metrics about a method, such as number of calls, execution time, and time spent executing the method. If you want more granular control over where profiling data is collected, use the startMethodTracing() and stopMethodTracing() methods. For more information about generating trace logs, see Profiling and Debugging UIs.
+Method profiling is a means to track certain metrics about a method, such as number of calls, execution time, and time spent executing the method. If you want more granular control over where profiling data is collected, use the startMethodTracing() and stopMethodTracing() methods.
 
 Before you start method profiling in DDMS, be aware of the following restrictions:
 
@@ -94,7 +94,7 @@ Socket tagging is supported in Android 4.0, but real-time stats will only be dis
 
 ## Using LogCat
 
-LogCat is integrated into DDMS, and outputs the messages that you print out using the Log class along with other system messages such as stack traces when exceptions are thrown. View the Reading and Writing Log Messages. topic for more information on how to log messages to the LogCat.
+LogCat is integrated into DDMS, and outputs the messages that you print out using the Log class along with other system messages such as stack traces when exceptions are thrown.
 
 When you have set up your logging, you can use the LogCat feature of DDMS to filter certain messages with the following buttons:
 
@@ -105,7 +105,3 @@ When you have set up your logging, you can use the LogCat feature of DDMS to fil
 - Error
 
 You can also setup your own custom filter to specify more details such as filtering messages with the log tags or with the process id that generated the log message. The add filter, edit filter, and delete filter buttons let you manage your custom filters.
-
-## Emulating phone operations and location
-
-The Emulator Control tab, shown in Figure 1, is no longer supported. Use the Android Emulator for these features.
